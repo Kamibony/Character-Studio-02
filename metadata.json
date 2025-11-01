@@ -1,0 +1,5 @@
+{
+  "name": "Character Studio",
+  "description": "A full-stack application to create, train, and visualize unique characters using AI. Users can upload reference images, which are then analyzed by an AI model to generate character details. Subsequently, users can generate new scenes and visualizations featuring their custom characters.",
+  "requestFramePermissions": []
+}
