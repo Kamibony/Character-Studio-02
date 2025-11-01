@@ -1,4 +1,3 @@
-
 import * as functions from "firebase-functions";
 import * as admin from "firebase-admin";
 import { getStorage } from "firebase-admin/storage";
@@ -25,7 +24,7 @@ const db = admin.firestore();
 // --- Konfigurácia ---
 const PROJECT_ID = "character-studio-comics";
 const LOCATION = "us-central1";
-const STORAGE_BUCKET = "character-studio-comics.appspot.com";
+const STORAGE_BUCKET = "character-studio-comics.firebasestorage.app";
 const regionalFunctions = functions.region(LOCATION);
 
 // Helper na zistenie MIME typu
